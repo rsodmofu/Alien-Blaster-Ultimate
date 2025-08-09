@@ -1,16 +1,14 @@
-
-name: alien_jelly_blaster
-description: Simple Flutter+Flame game: shoot jellyfish with an alien laser. Waves get harder.
+name: alien_blaster_ultimate
+description: Minimal Flutter app to verify CI build
 publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.3.0 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flame: ^1.14.0
 
 dev_dependencies:
   flutter_test:
@@ -18,5 +16,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/
